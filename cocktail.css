@@ -1,0 +1,89 @@
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.lista-koktela {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 35px;
+}
+.btn {
+  cursor: pointer;
+  background: green;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 10px 25px;
+  outline: none;
+}
+.btn:active {
+  background-color: orange;
+}
+
+input {
+  width: 30%;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 20px;
+  font-size: 25px;
+  outline: none;
+}
+
+.svi-kokteli {
+  text-align: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.rezultati {
+  display: flex;
+  flex-direction: column;
+  background: yellow;
+  color: black;
+  border-radius: 30px;
+}
+.slika {
+  width: 90%;
+  display: flex;
+  align-self: center;
+  border-radius: 3px;
+}
+
+.vrsta {
+  text-align: justify;
+  padding: 0 60px;
+}
+
+.alcoholic {
+  text-align: center;
+}
+
+.alcohol {
+  background: red;
+}
+
+.optional-alcohol {
+  background-color: orange;
+}
+.none-alcohol {
+  background: blue;
+}
+
+.sastojci {
+  padding: 0 60px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.instrukcije {
+  padding: 0 30px;
+  font-size: 18px;
+  text-align: justify;
+}
